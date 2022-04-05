@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 100vh;
+  background-image: url(https://i.pinimg.com/564x/90/31/b0/9031b0c23f40220874ddafd87e0d744a.jpg);
+  background-color: #000000;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+body .noteCalculator {
+  min-height: 400px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+  max-height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.inputNotes {
+  display: flex;
+  margin: 5px auto;
+  width: 12rem;
+  background-color: 000000;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 3px 12px #ffffff;
+}
+.inputNotes::placeholder {
+  color: #black;
+}
+.calcNotes {
+  display: flex;
+  margin: 5px auto;
+  width: 12rem;
+  height: 2rem;
+  border-radius: 25px 0 25px;
+  color: black;
+  background-color: rgb(196, 189);
+  box-shadow: 1px 3px 12px #ffffff;
+}
+#calcResultadoLayer {
+  display: flex;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+  margin: 5px auto;
+}
